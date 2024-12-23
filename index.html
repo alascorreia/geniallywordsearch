@@ -36,30 +36,29 @@
   </style>
 </head>
 <body>
-  <h1>Word Search</h1>
+  <h1>Sopa de Letras</h1>
   <div id="wordSearchGrid"></div>
   <div id="wordList">
-    <h2>Find these words:</h2>
+    <h2>Encontre os Planetas do Sistema solar:</h2>
     <ul id="words">
-      <li>APPLE</li>
-      <li>TREE</li>
+      <li>Jupyter</li>
       <li>LEAF</li>
     </ul>
   </div>
 
   <script>
     const gridData = [
-      ['A', 'P', 'P', 'L', 'E', 'O', 'R', 'T'],
+      ['', 'P', 'P', 'L', 'E', 'O', 'R', 'T'],
       ['X', 'B', 'C', 'D', 'T', 'R', 'E', 'E'],
       ['L', 'E', 'A', 'F', 'Y', 'X', 'Y', 'Z'],
-      ['A', 'X', 'Y', 'Z', 'K', 'L', 'M', 'N'],
-      ['P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W'],
-      ['P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W'],
-      ['P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W']
+      ['J', 'U', 'Y', 'Z', 'K', 'L', 'M', 'N'],
+      ['P', 'Q', 'R', 'S', 'T', 'U', 'A', 'W'],
+      ['P', 'Q', 'R', 'S', 'T', 'U', 'R', 'W'],
+      ['P', 'Q', 'R', 'S', 'T', 'U', 'S', 'W']
     ];
 
     const wordSearchGrid = document.getElementById('wordSearchGrid');
-    const wordsToFind = ['APPLE', 'TREE', 'LEAF'];
+    const wordsToFind = ['APPLE', 'TREE', 'LEAF','MARS'];
 
     // Populate the grid
     gridData.forEach((row, rowIndex) => {
